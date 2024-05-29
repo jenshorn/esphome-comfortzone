@@ -26,6 +26,7 @@ uart:
   data_bits: 8
   parity: NONE
   stop_bits: 1
+  debug:
 
 comfortzone:
   re_de_pin: ${re_de_pin}
