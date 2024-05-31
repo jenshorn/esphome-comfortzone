@@ -142,7 +142,10 @@ climate:
     heatpump_climate:
       name: "ComfortZone EX50 heating"
     water_heater_climate:
-      name: "ComfortZone EX50 hot water"
+      name: "ComfortZone EX50 hot water"      
+      visual:
+        min_temperature: 30 °C
+        max_temperature: 60 °C
 
 # Needed to keep track of sensor offset changes
 time:
